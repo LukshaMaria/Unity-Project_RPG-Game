@@ -12,7 +12,7 @@ public class EnemyMove : MonoBehaviour
 
     void Start()
     {
-        step = speed * Time.deltaTime;
+        step = speed * Time.deltaTime; //шаг - это произведение значения скорости и Time.deltaTime
         checkpoints = GameObject.FindGameObjectsWithTag("checkPoint");  
     }
 
